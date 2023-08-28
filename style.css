@@ -88,7 +88,7 @@ header nav ul li a:hover
 #main-image
     {
         height: 580px;
-        background: url(main.jpg) center;
+        background: url('main.jpg') center;
     }
 #main-image h2
     {
@@ -140,17 +140,17 @@ header nav ul li a:hover
     }
 #step-1
     {
-        background: url(steps-icon-1.png) no-repeat top ;
+        background: url('steps-icon-1.png') no-repeat top ;
     }
 #step-2
     {
-        background: url(steps-icon-2.png) no-repeat top ;
+        background: url('steps-icon-2.png') no-repeat top ;
         margin-left: 150px;
         
     }
 #step-3
     {
-        background: url(steps-icon-3.png) no-repeat top ;
+        background: url('steps-icon-3.png') no-repeat top ;
         float: right;
     }
 /*contact*/
