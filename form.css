@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background: url(background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #070707; 
+    padding: 100px;
+    
+}
+.contener{
+    
+    display: flex;
+    width: 300px;
+    height: 400px;
+    border: 1px solid rgb(28, 6, 48);;
+    border-radius: 8px;
+    padding: 20px 50px 20px 50px;
+    background:transparent;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
+form{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.element1{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom: 2px solid rgb(150, 77, 218);
+    color: rgb(28, 6, 48);
+    
+}
+p{
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: rgb(28, 6, 48);
+}
+.element2 label{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px;
+    color: rgb(28, 6, 48);
+    
+} 
+.element2 input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none ;
+    border-bottom: 1px solid rgb(150, 77, 218);
+    font-size: 18px;
+    margin: 5px;
+}
+.element3 label{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px;
+    color: rgb(28, 6, 48);
+}
+.element3 input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none ;
+    border-bottom: 1px solid rgb(150, 77, 218);
+    font-size: 18px;
+    margin: 5px;
+}
+.element4{
+    padding-bottom: 15px;
+}
+.element4 a{
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(28, 6, 48);
+    font-weight: bold;
+}
+.element5 button{
+    height: 100%;
+    width: 250px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(150, 77, 218);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.element5{
+    padding-bottom: 20px;
+    color: rgb(28, 6, 48);
+}
+.element6{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(28, 6, 48);
+}
